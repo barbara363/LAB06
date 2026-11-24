@@ -7,22 +7,22 @@ namespace LAB06
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Проверка работы свойств и ToString");
+            Console.WriteLine();
             Range r1 = new Range(2, 5);
             Range r2 = new Range(4, 8);
 
             Console.WriteLine($"Отрезок 1: { r1}");
             Console.WriteLine($"Отрезок 2: { r2}");
 
-            Console.WriteLine("2.Проверка оператора + (Объединение)");
+            Console.WriteLine();
             Range union = r1 + r2;
             Console.WriteLine($"Объединение(r1 + r2): { union}");
 
-            Console.WriteLine("3.Проверка оператора - (Общая часть)");
+            Console.WriteLine();
             Range intersection = r1 - r2;
             Console.WriteLine($"Пересечение(r1 - r2): { intersection}");
 
-            Console.WriteLine("4.Проверка валидации(Ошибки)");
+            Console.WriteLine();
 
             try
             {
